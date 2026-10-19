@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/KernelSU-Modules/tools/main/schemas/module.schema.json
+schemaVersion: 1
+id: privacykit_zygisk
+name: Privacy Kit Zygisk Companion
+summary: Native Zygisk companion for the Privacy Kit LSPosed app. It covers the device IDs that Java hooks can't reach, so each app sees its own spoofed values.
+description: README.md
+homepage: https://github.com/Mohithash/privacykit-zygisk
+support: https://xdaforums.com/threads/4803192/
+tags: [privacy, zygisk, lsposed, spoofing, android-id]
+authors:
+  - name: Mohithash
+    url: https://github.com/Mohithash
+compatibility:
+  architectures: [arm64-v8a, armeabi-v7a]
+release:
+  assetPattern: "privacykit-zygisk-*.zip"
